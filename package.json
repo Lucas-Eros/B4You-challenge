@@ -1,0 +1,30 @@
+{
+  "name": "b4you-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon --exec ts-node app.ts"
+  },
+  "keywords": [],
+  "author": "Lucas Eros",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "knex": "^3.1.0",
+    "node-pg-migrate": "^6.2.2",
+    "nodemon": "^3.1.0",
+    "pg": "^8.11.3",
+    "typescript": "^5.4.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/jest": "^29.5.12",
+    "@types/pg": "^8.11.4",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2"
+  }
+}

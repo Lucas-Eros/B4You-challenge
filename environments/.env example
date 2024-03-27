@@ -1,0 +1,5 @@
+PORT= 3000
+DB_HOST= localhost //Definir DB_HOST de acordo com o readme.md
+DB_USER= postgres // Definir DB_USER de acordo com o readme.md
+DB_PASSWORD= 1234 // Definir DB_PASSWORD de acordo com o readme.md
+DB_NAME= postgres // Definir DB_NAME de acordo com o readme.md
