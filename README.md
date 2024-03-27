@@ -13,18 +13,18 @@ Alguma aplicação para testar rotas, aqui estão alguns exemplos:
 Para usar a api do Desafio, siga estas etapas:  
 
 Entre na raiz do projeto e:  
-- Execute o comando npm install para instalar as dependências do projeto.  
-- Execute o comando docker-compose up -d para criar um container com a imagem do postgresql (Para não precisar instalar o Postgressql inteiro).   
+- Execute o comando `npm install` para instalar as dependências do projeto.  
+- Execute o comando `docker-compose up -d` para criar um container com a imagem do postgresql (*Para não precisar instalar o Postgressql inteiro*).   
 - Preencha o env através do modelo do projeto.  
-- Execute o comando npm run start para rodar o projeto.  
-- Execute o comando npm run test para rodar os testes unitários.  
+- Execute o comando `npm run start` para rodar o projeto.  
+- Execute o comando `npm run test` para rodar os testes unitários.  
 
-## <exemplo_de_uso>  
+## Exemplo de Request  
 🕹 Aqui estão alguns "mocks" de requisição da API:  
 
 ### Criando uma transação através do método POST:  
 
-URL: http://localhost:3000/api/transaction (Caso tenha definido uma porta diferente no .env alterar para a porta correta.)  
+URL: http://localhost:3000/api/transaction (*Caso tenha definido uma porta diferente no .env alterar para a porta correta.*)  
 
 Body:  
 {  
