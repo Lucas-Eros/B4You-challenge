@@ -1,6 +1,6 @@
 # B4You-challenge
 
-💻 Pré-requisitos   
+## 💻 Pré-requisitos   
 Antes de começar, verifique se você atendeu aos seguintes requisitos:  
 
 Você instalou Node: https://nodejs.org/en/download/current  
@@ -9,18 +9,17 @@ Alguma aplicação para testar rotas, aqui estão alguns exemplos:
     Postman: https://www.postman.com/downloads/  
     insomnia: https://insomnia.rest/download  
 
-<comando_de_instalação>  
-☕ Usando a <API>  
-Para usar a api do <Desafio>, siga estas etapas:  
+## ☕ Usando a API  
+Para usar a api do Desafio, siga estas etapas:  
 
 Entre na raiz do projeto e:  
-- Execute o comando <npm install> para instalar as dependências do projeto.  
-- Execute o comando <docker-compose up -d> para criar um container com a imagem do postgresql (Para não precisar instalar o Postgressql inteiro).   
+- Execute o comando npm install para instalar as dependências do projeto.  
+- Execute o comando docker-compose up -d para criar um container com a imagem do postgresql (Para não precisar instalar o Postgressql inteiro).   
 - Preencha o env através do modelo do projeto.  
-- Execute o comando <npm run start> para rodar o projeto.  
-- Execute o comando <npm run test> para rodar os testes unitários.  
+- Execute o comando npm run start para rodar o projeto.  
+- Execute o comando npm run test para rodar os testes unitários.  
 
-<exemplo_de_uso>  
+## <exemplo_de_uso>  
 🕹 Aqui estão alguns "mocks" de requisição da API:  
 
 ### Criando uma transação através do método POST:  
